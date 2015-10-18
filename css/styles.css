@@ -1,0 +1,249 @@
+.navbar,
+section {
+	background: #FF5959;
+}
+
+.navbar {
+	border: none;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.section-alt {
+	background: #E8E8E8;
+}
+
+.title,
+.section-alt .title {
+	color: #fff;
+	font: 30px 'Quicksand', sans-serif;
+}
+
+.title::after,
+.section-alt .title::after {
+	background: url(../img/hl.png) no-repeat;
+	content: '';
+	display: block;
+	height: 7px;
+	margin: 23px auto 0;
+	width: 370px;
+}
+
+.section-alt .title {
+	color: #000;
+}
+
+.section-alt .title::after {
+	background: url(../img/hl-alt.png) no-repeat;
+}
+
+.footer {
+	background: #ff5959;
+	color: #e8e8e8;
+	font: 400 13px 'Quicksand', sans-serif;
+}
+
+.hero {
+	padding: 0;
+}
+
+#slider img {
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+/* services */
+.services h3 {
+	font: 400 24px 'Quicksand', sans-serif;
+}
+
+.services p {
+	font: 400 13px 'Quicksand', sans-serif;
+}
+
+/* team */
+.teammate-picture {
+	border: 2px solid #ff5959;
+	border-radius: 50%;
+	height: 270px;
+	margin: 0 auto;
+	width: 270px;
+}
+
+.teammate-name {
+	font: 700 24px 'Quicksand', sans-serif;
+}
+
+.teammate-position {
+	font: 300 16px 'Quicksand', sans-serif;
+}
+
+.teammate-comment {
+	font: 300 13px 'Quicksand', sans-serif;
+}
+
+.teammate-social li {
+	display: inline-block;
+}
+
+.teammate-social i {
+	display: inline-block;
+	height: 24px;
+	margin-right: 12px;
+	width: 24px;
+}
+
+.teammate-twitter {
+	background: url(../img/icon-twitter.png) no-repeat;
+}
+.teammate-pinterest {
+	background: url(../img/icon-pinterest.png) no-repeat;
+}
+.teammate-facebook {
+	background: url(../img/icon-facebook.png) no-repeat;
+}
+.teammate-googleplus {
+	background: url(../img/icon-googleplus.png) no-repeat;
+}
+.teammate-linkedin {
+	background: url(../img/icon-linkedin.png) no-repeat;
+}
+
+/* news */
+.news {
+	color: #fff;
+}
+
+.news-title {
+	font: 700 18px 'Quicksand', sans-serif;
+}
+
+.news-date {
+	font: 300 13px 'Quicksand', sans-serif;
+}
+
+.news-date::before {
+	background: url(../img/icon-calendar.png) no-repeat;
+	content: '';
+	display: inline-block;
+	height: 14px;
+	margin-right: 7px;
+	width: 13px;
+}
+
+.news-briefing {
+	font: 400 13px 'Quicksand', sans-serif;
+}
+
+.news-meta a {
+	color: #fff;
+	font: 400 13px 'Quicksand', sans-serif;
+}
+
+.news-meta a::before {
+	content: '';
+	display: inline-block;
+	height: 16px;
+	margin-right: 14px;
+	width: 16px;
+}
+
+.news-author {
+	background: url(../img/icon-author.png) no-repeat;
+}
+
+.news-comments {
+	background: url(../img/icon-comments.png) no-repeat;
+}
+
+/* contact */
+.contact input[type=text],
+.contact textarea {
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 14px;
+	padding: 14px;
+	width: 100%;
+}
+
+.contact h3 {
+	font: 400 24px 'Quicksand', sans-serif;
+}
+
+.contact p {
+	font: 300 13px 'Quicksand', sans-serif;
+}
+
+.contact-address {
+	font: 400 13px 'Quicksand', sans-serif;
+}
+
+.contact-address::before {
+	background: url(../img/icon-map.png) no-repeat;
+	content: '';
+	display: inline-block;
+	height: 16px;
+	margin-right: 14px;
+	width: 11px;
+}
+
+.contact-phone {
+	font: 400 13px 'Quicksand', sans-serif;
+}
+
+.contact-phone::before {
+	background: url(../img/icon-phone.png) no-repeat;
+	content: '';
+	display: inline-block;
+	height: 14px;
+	margin-right: 14px;
+	width: 12px;
+}
+
+.contact input[type=submit] {
+	background: #ff5959;
+	border: 2px solid #ff5959;
+	border-radius: 10px;
+	display: inline-block;
+	color: #fff;
+	font: 400 18px 'Droid Sans', sans-serif;
+	margin-right: 14px;
+	padding: 14px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 170px;
+}
+
+.contact .view-map {
+	color: #ff5959 !important;
+	border: 2px solid #ff5959;
+	border-radius: 10px;
+	color: #fff;
+	display: inline-block;
+	font: 400 18px 'Droid Sans', sans-serif;
+	padding: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 170px;
+}
+
+.arrow-sketch {
+	background: url(../img/arrow-sketch.png) no-repeat;
+	content: '';
+	display: inline-block;
+	float: right;	
+	height: 51px;
+	left: 235px;
+	margin-top: 5px;
+	position: absolute;
+	width: 74px;
+}
